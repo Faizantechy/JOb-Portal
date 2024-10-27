@@ -1,0 +1,462 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+
+}
+
+.links{
+
+    display: flex;
+    gap: 50px;
+}
+
+.job-link{
+
+    padding-left: 70px;
+    color: green !important;
+
+}
+
+
+.job-link:hover{
+
+    color: black !important;
+}
+
+
+.links a{
+
+
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.icon{
+
+    font-size: 30px;
+    padding-top: 17px;
+    padding-left: 15px;
+    color: green;
+    font-weight: 200;
+}
+
+.icon:hover{
+
+    color: black;
+}
+
+
+.demo button{
+
+    width: 142px;
+    padding: 11px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid green;
+    color: green;
+}
+
+.demo button:hover{
+
+    background-color:green ;
+    color: white;
+
+}
+
+
+.nav-part2{
+
+    background: url(/nav-part.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-part2{
+
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-right: 39rem;
+}
+
+.nav-part2 h2{
+
+    font-size: 2.25rem;
+    color: white;
+    display: block;
+
+}
+
+.nav-part2 p{
+
+    color: white;
+    font-size: 18px;
+    padding-right: 107px;
+    padding-top: 20px;
+
+
+}
+
+.nav-part2 a{
+
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.icon2{
+
+    background-color: transparent;
+    font-size: 50px;
+    position: relative;
+    top: 8px;
+    color: white;
+    
+}
+
+.icon2:hover{
+
+    color: orange;
+}
+
+.nav-part2 a:hover{
+
+    color: orange;
+}
+
+
+.link-i{
+
+display: inline;
+padding-top: 30px;
+padding-right: 480px;
+}
+
+.second-div{
+
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+}
+
+.second-div h2{
+
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+table{
+
+    width: 80%;
+    border: 15px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 10rem;
+    /* margin-top: 40px; */
+
+}
+
+
+th{
+
+    width: 600px;
+    height: 180px;
+    background-color: rgb(49,51,51);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+
+th i{
+
+    display: block;
+}
+
+.icons{
+
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+tr{
+
+    width: 200px;
+}
+td{
+
+    width: 50rem;
+    height: 200px;
+    font-size: 20px;
+}
+
+
+table tr{
+
+    height: 50px;
+}
+
+table p{
+
+    font-size: 13px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+.btn{
+
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    font: 20px;
+    color: white;
+    font-weight: 800;
+    border: 2px solid white;
+}
+
+.tds a{
+
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(67,160,216);
+}
+
+.Video-container {
+    /* height: 95vh; */
+    /* padding-top: 50px; */
+    /* padding-left: 15rem; */
+  }
+  
+  .Video-container video {
+    width: 200px; 
+
+  }
+
+
+  .footer{
+
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+  }
+
+
+
+
+  /* General styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container styles */
+
+.Container {
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+}
+
+.links {
+    display: flex;
+    gap: 20px; /* Adjusted gap for smaller screens */
+}
+
+.job-link {
+    padding-left: 20px; /* Adjusted padding for smaller screens */
+}
+
+/* Nav-part2 styles */
+
+.nav-part2 {
+    background: url(/nav-part.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    padding: 50px; /* Adjusted padding for smaller screens */
+    flex-direction: column;
+}
+
+.nav-part2 h2 {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.nav-part2 p {
+    color: white;
+    font-size: 14px; /* Adjusted font size for smaller screens */
+    text-align: center;
+}
+
+.link-i {
+    display: inline;
+    padding-top: 20px; /* Adjusted padding for smaller screens */
+    padding-right: 20px; /* Adjusted padding for smaller screens */
+}
+
+/* Second-div styles */
+
+.second-div {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    padding: 20px; /* Adjusted padding for smaller screens */
+}
+
+.second-div h2 {
+    font-size: 2rem; /* Adjusted font size for smaller screens */
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* Table styles */
+
+table {
+    width: 100%;
+    border: 15px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 20px auto; /* Center the table */
+}
+
+/* Responsive media queries */
+
+@media (max-width: 767px) {
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* Adjusted gap for smaller screens */
+    }
+
+    .job-link {
+        padding-left: 0;
+    }
+
+    .nav-part2 {
+        padding: 30px;
+    }
+
+    .nav-part2 h2 {
+        font-size: 1.2rem;
+    }
+
+    .nav-part2 p {
+        font-size: 12px;
+        padding-right: 0;
+    }
+
+    .link-i {
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+
+    .second-div {
+        padding: 10px;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .links {
+        font-size: 14px;
+    }
+
+    .job-link {
+        padding-left: 10px;
+    }
+
+    .nav-part2 h2 {
+        font-size: 1rem;
+    }
+
+    .nav-part2 p {
+        font-size: 10px;
+    }
+
+    .link-i {
+        padding-right: 5px;
+    }
+
+    .second-div h2 {
+        font-size: 1.5rem;
+    }
+
+    table th {
+        font-size: 14px;
+    }
+
+    table td {
+        font-size: 16px;
+    }
+
+    .Video-container video {
+        width: 100%; /* Make video responsive */
+    }
+}
+
